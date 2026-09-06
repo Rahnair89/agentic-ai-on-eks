@@ -1,0 +1,24 @@
+NOTICE
+======
+
+This repository documents and analyses the AWS workshop:
+
+  "Building production ready AI Agents on Amazon EKS"
+  https://catalog.workshops.aws/ai-agents-on-eks/en-US
+
+The workshop, its lab source code, its Terraform, and the AnyCompany Shop sample
+application are the property of Amazon Web Services and are provided under the
+terms of the workshop and its associated repositories.
+
+This repository contains no AWS lab source code. It records:
+
+  - command sequences as run during the labs, so the notes are reproducible
+  - configuration values and service addresses needed to follow along
+  - architecture descriptions of what each module deploys
+
+All write-ups, comparisons, architecture diagrams, and analysis in this repository
+are original work.
+
+Trademarks: Amazon Web Services, Amazon EKS, Amazon Bedrock, AWS Inferentia, and
+AgentCore are trademarks of Amazon.com, Inc. or its affiliates. Milvus, Neo4j,
+Langfuse, vLLM, and LiteLLM are the property of their respective owners.
