@@ -109,11 +109,10 @@ What the workshop builds, its own conclusion, and six things worth taking to pro
 
 ---
 
-## Four findings worth the read
+## Four things worth taking from this workshop
 
 **1. Evaluation scores measure the instrumentation as much as the agent.**
-Run the same LLM-as-a-Judge methodology on both tracks and accuracy scores near zero on the
-self-managed agent and 1.0 on the integrated one. The agents behave comparably. The difference is that
+The workshop runs the same LLM-as-a-Judge methodology on both tracks and gets opposite results: accuracy scores near zero on the self-managed agent (§750) and 1.0 on the integrated one (§550). The agents behave comparably. The difference is that
 the integrated agent emits tool-call spans tagged with `session.id`, so the judge can verify grounding
 directly, while the self-managed agent's traces lack tool spans and the judge flags possible
 fabrication it cannot rule out. The naive reading — that the managed agent is more accurate — is
